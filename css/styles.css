@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 .link {
     text-decoration: none;
 }
@@ -13,6 +19,23 @@ body {
     color: #434455;
 }
 
+img {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.container {
+    width: 1158px;
+}
 
 /* Header */
 .header {
