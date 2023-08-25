@@ -35,11 +35,26 @@ p {
 
 .container {
     width: 1158px;
+    padding: 0 15px 0 15px;
 }
 
 /* Header */
 .header {
     background-color: #FFFFFF;
+
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-logo-link {
+    padding: 24px 0 24px;
+}
+
+.header-nav {
+    display: flex;
+    gap: 40px;
 }
 
 .header-logo {
@@ -51,11 +66,17 @@ p {
     text-align: left;
     color: #4D5AE5;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .header-colored-logo {
     color: #2E2F42;
-    ;
+
+}
+
+.header-navigation-list {
+    display: flex;
+    align-items: center;
 }
 
 .header-nav-item {
@@ -74,6 +95,11 @@ p {
 
 .header-nav-item:active {
     color: #404BBF;
+}
+
+.header-list-ilem {
+    display: flex;
+    gap: 40;
 }
 
 .header-address {
@@ -98,6 +124,7 @@ p {
 .header-address-item:active {
     color: #404BBF;
 }
+
 
 /* Hero section */
 
