@@ -146,6 +146,8 @@ button {
 
 .hero-section {
     background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-section-title {
@@ -155,6 +157,9 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    width: 496px;
 }
 
 .hero-section-button {
@@ -165,6 +170,13 @@ button {
     text-align: left;
     background-color: #4D5AE5;
     color: #FFFFFF;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    margin-top: 48px;
+    border-radius: 4px;
+    padding: 16px 32px;
 }
 
 .hero-section-button:hover,
