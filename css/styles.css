@@ -244,10 +244,9 @@ button {
 
 .our-team-section {
     background-color: #F4F4FD;
-
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
-
-
 
 .our-team-section-title {
     font-size: 36px;
@@ -257,6 +256,20 @@ button {
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
+    margin-left: auto;
+    margin-right: auto;
+    width: 165px;
+    margin-bottom: 72px;
+}
+
+.our-team-section-list {
+    display: flex;
+    column-gap: 24px;
+}
+
+.our-team-section-image {
+    background-color: #FFFFFF;
+    padding-bottom: 32px;
 }
 
 .our-team-section-item-title {
@@ -275,6 +288,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     background-color: #FFFFFF;
+    padding-bottom: 32px;
 }
 
 /* Our portfolio section */
