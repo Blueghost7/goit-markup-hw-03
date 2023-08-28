@@ -11,6 +11,9 @@
 ol,
 ul {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 body {
@@ -30,12 +33,18 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button {
+    cursor: pointer;
 }
 
 .container {
     width: 1158px;
     padding: 0 15px 0 15px;
+    margin: 0 auto;
 }
 
 /* Header */
@@ -44,17 +53,13 @@ p {
 
 }
 
-.header {
-    border-bottom: 1px solid #e7e9fc;
-}
-
-.header-logo-link {
-    padding: 24px 0 24px;
-}
-
-.header-nav {
+.header-container {
     display: flex;
-    gap: 40px;
+}
+
+.header-navigation-list {
+    display: flex;
+    align-items: center;
 }
 
 .header-logo {
@@ -74,8 +79,9 @@ p {
 
 }
 
-.header-navigation-list {
+.header-nav {
     display: flex;
+    column-gap: 40px;
     align-items: center;
 }
 
@@ -86,6 +92,9 @@ p {
     letter-spacing: 0.02em;
     text-align: left;
     color: #2E2F42;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-nav-item:hover,
@@ -97,13 +106,21 @@ p {
     color: #404BBF;
 }
 
-.header-list-ilem {
-    display: flex;
-    gap: 40;
-}
-
 .header-address {
     font-style: normal;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.header-address-list {
+    display: flex;
+    gap: 40px;
+
+}
+
+.header-list-item {
+    align-items: center;
 }
 
 .header-address-item {
@@ -124,7 +141,6 @@ p {
 .header-address-item:active {
     color: #404BBF;
 }
-
 
 /* Hero section */
 
