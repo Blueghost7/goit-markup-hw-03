@@ -217,7 +217,6 @@ button {
 .advatages-section-list {
     display: flex;
     gap: 24px;
-    margin-bottom: 8px;
 }
 
 .advantages-item {
@@ -257,9 +256,7 @@ button {
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
-    margin-left: auto;
-    margin-right: auto;
-    width: 165px;
+    text-align: center;
     margin-bottom: 72px;
 }
 
@@ -275,7 +272,6 @@ button {
 
 .our-team-section-image {
     background-color: #FFFFFF;
-    padding-bottom: 32px;
 }
 
 .our-team-container {
@@ -299,7 +295,6 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     background-color: #FFFFFF;
-    padding-bottom: 32px;
 }
 
 /* Our portfolio section */
@@ -347,7 +342,6 @@ button {
     letter-spacing: 0.02em;
     text-align: left;
     color: #2E2F42;
-    padding-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -357,7 +351,6 @@ button {
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
-    padding-bottom: 32px;
 }
 
 /* Footer-section */
